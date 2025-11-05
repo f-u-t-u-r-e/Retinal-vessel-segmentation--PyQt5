@@ -1,0 +1,48 @@
+# 用户隐私数据
+users.json
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 模型文件（太大）
+checkpoint.pth
+
+# 输出文件
+out_file/
+outputs/
+roc/*.png
+
+# 数据集（可选，如果数据集太大或有版权问题）
+data/training/images/*.tif
+data/training/1st_manual/*.gif
+data/test/images/*.tif
+data/test/1st_manual/*.gif
+data/test/2nd_manual/*.gif
+data/test/mask/*.gif
+data/test/outputs/*.png
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.log
+*.tmp
+*.bak
